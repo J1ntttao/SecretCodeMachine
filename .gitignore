@@ -3,6 +3,4 @@ Listings/
 Objects/
 
 # 忽略文件
-IsNormalhex.hex
-
-*.uvguix.*
+*.uvgui.*
