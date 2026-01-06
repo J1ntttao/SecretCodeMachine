@@ -1,0 +1,8 @@
+# 忽略目录
+Listings/
+Objects/
+
+# 忽略文件
+IsNormalhex.hex
+
+*.uvguix.*
