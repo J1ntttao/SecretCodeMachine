@@ -1,3 +1,12 @@
-# Based on STC8H8K64U
-- Study at itheima
-- Little project
+# 基于STC8H8K64U的密码机
+- 准备了3个难度，每个难度分别有4个关卡
+- Lv1: TIP显示本关出现的颜色	 
+       POS会显示情况指示灯（位置相关）
+       ACK不显示
+- Lv2: TIP显示本关出现的颜色
+       POS不显示
+       ACK会显示情况指示灯（位置无关，仅表示个数）
+- Lv3: TIP不显示
+       POS不显示
+       ACK会显示情况指示灯（位置无关，仅表示个数）
+# 若想复刻我的项目请联系我的邮箱 qq2379873505@163.com
