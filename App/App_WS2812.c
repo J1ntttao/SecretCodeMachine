@@ -2,7 +2,6 @@
 #include "task.h"
 #include "WS2812B.h"
 #include <string.h>
-
 // ºì³È»ÆÂÌÇàÀ¶×Ï
 // 0 1 2 3 4 5 6 
 
