@@ -92,6 +92,8 @@ void Keys_on_keydown(u8 key){
                     if(DeviceState == DeviceVictory){ 
                         OLED_Clear();
                         App_OLED_refresh();
+                        WS2812_RefreshLEDColor(0);
+                        WS2812_RefreshLEDColor(1);
                         
                         DeviceState = DeviceDefault;
                         
@@ -102,12 +104,14 @@ void Keys_on_keydown(u8 key){
                         Task_Unlock();
                         
                         return;
-                    }		
+                    }		    
                     // 关卡失败状态（6次没猜出来）
                     if(g_current_line == 6){
                         //printf("6次已满\n");
                     
                         DeviceState = DeviceDefeat;
+                        WS2812_RefreshLEDColor(0);
+                        WS2812_RefreshLEDColor(1);                        
                         OLED_Clear();
                         App_OLED_refresh();
                         DeviceState = DeviceDefault;

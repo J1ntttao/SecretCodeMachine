@@ -506,11 +506,6 @@
               <FileType>1</FileType>
               <FilePath>.\App\App_GameProcess.c</FilePath>
             </File>
-            <File>
-              <FileName>App_StandBy.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\App\App_StandBy.c</FilePath>
-            </File>
           </Files>
         </Group>
       </Groups>
